@@ -21,7 +21,7 @@ const Header = () => {
     <div id="header">
       <div id="headerword">
         <h3>Independent Travel advisors,working for you</h3>
-        <p id='p1'>Worry-less when going for a tour,we got you covered withour specialized Travel advisers</p>
+        <p id='p1'>Worry-less when going for a tour,we got you covered with our specialized Travel advisers</p>
       
       </div>
       </div>
