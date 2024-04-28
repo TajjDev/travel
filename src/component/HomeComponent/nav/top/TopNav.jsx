@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Links from '../../links/Links'
 import './topNav.css'
 import { Link } from 'react-router-dom'
+import imgLogo from "./src/assets/logo.png"
 
 const Topnav = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -45,7 +46,7 @@ const Topnav = () => {
     paddingTop: navScroll ? "10px" : "10px",background: navScroll ? "rgba(7, 7, 7, 0.9)" :"none" }}>
         <div id="logo">
           <div id="theLogo">
-           <img src="/src/assets/logo.png" alt="travel" />
+           <img src={imgLogo} alt="travel" />
           </div>
           
         </div>
