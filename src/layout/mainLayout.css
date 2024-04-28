@@ -1,0 +1,16 @@
+ #layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(219, 217, 213); */
+    
+}
+#nav{
+    background:  url("/src/assets/backGd.png") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#display{
+}

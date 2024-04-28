@@ -1,0 +1,29 @@
+#link{
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding-left:15px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+span{
+    padding-right: 5px;
+}
+@media screen and (max-width:1000px) {
+    #link{
+        font-size: 0.7rem;
+    }
+}@media screen and (max-width:700px) {
+    #link{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:650px) {
+    #link{
+        margin-bottom: 30px;
+        margin-top: 5px;
+        font-size: 0.55rem;
+        color: black;
+        padding-right: 15px;
+    }
+}
