@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Links from '../../links/Links'
 import './topNav.css'
 import { Link } from 'react-router-dom'
-import imgLogo from "./src/assets/logo.png"
+import imgLogo from "/src/assets/logo.png"
 
 const Topnav = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
