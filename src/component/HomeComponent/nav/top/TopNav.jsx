@@ -56,16 +56,16 @@ const Topnav = () => {
                   {showDropDownMenu && (
                     <div  id="dropdown-content">
                       <Links to={'/'} label={'Home'} />
-                      <Links to={'/about'} label={'About Us'} />
-                      <Links to={'/traveladvisory'} label={'Travel advisory'} />
+                      <Links to={'/https://travel-woad-two.vercel.app/about'} label={'About Us'} />
+                      <Links to={'https://travel-woad-two.vercel.app/traveladvisory'} label={'Travel advisory'} />
                     </div>
                   )}
                 </div>
               ) : (
                 <div id='links'>
                 <Links to={'/'} label={'Home'} />
-                <Links to={'/about'} label={'About Us'} />
-                <Links to={'/traveladvisory'} label={'Travel advisory'} />
+                <Links to={'/https://travel-woad-two.vercel.app/about'} label={'About Us'} />
+                <Links to={'https://travel-woad-two.vercel.app/traveladvisory'} label={'Travel advisory'} />
               </div >
               )}
 
