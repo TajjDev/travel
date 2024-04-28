@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         children:[
             
             {
-                path:'https://travel-woad-two.vercel.app/traveladvisory',
+                path:'/traveladvisory',
                 element:<Traveladvisory/>
             },
             {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
                 element:<Home/>
             },
             {
-                path:'/https://travel-woad-two.vercel.app/about',
+                path:'/about',
                 element:<AboutUs/>
             },
             {
